@@ -7,7 +7,10 @@
 body {
   font-size: 14px;
 }
-
+div ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 div {
   width: 100%;
   margin: 20px;
